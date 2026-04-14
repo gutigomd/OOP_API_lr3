@@ -1,0 +1,8 @@
+package com.example.coworking.repository;
+import com.example.coworking.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    List<User> findByLastNameContainingIgnoreCaseOrFirstNameContainingIgnoreCase(String q1, String q2);
+}

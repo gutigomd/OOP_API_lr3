@@ -1,0 +1,59 @@
+{
+  "info": {
+    "_postman_id": "43755f49-376a-4cf5-bfe2-11288c426bf6",
+    "name": "lab2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53989338",
+    "_collection_link": "https://go.postman.co/collection/53989338-43755f49-376a-4cf5-bfe2-11288c426bf6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "buildings",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "users",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "workspace-types",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "workspaces",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "workspaces/1/types/1",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "reservations",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
